@@ -14,7 +14,7 @@ namespace pbpaste
         {
             var pasteboard = Clipboard.GetText();
 
-            Console.WriteLine(pasteboard);
+            Console.Write(pasteboard);
         }
     }
 }

@@ -13,12 +13,11 @@ namespace pbcopy
         static void Main(string[] args)
         {
             StringBuilder pasteboard = new StringBuilder();
-            string line;
-            while ((line = Console.ReadLine()) != null)
+            Int32 c;
+            while ((c = Console.Read()) != -1)
             {
-                pasteboard.AppendLine(line);
+                pasteboard.Append(Convert.ToChar(c));
             }
-
             Clipboard.SetText(pasteboard.ToString());
         }
     }
