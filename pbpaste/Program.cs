@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace pbpaste
@@ -13,7 +10,6 @@ namespace pbpaste
         static void Main(string[] args)
         {
             var pasteboard = Clipboard.GetText();
-
             Console.Write(pasteboard);
         }
     }
