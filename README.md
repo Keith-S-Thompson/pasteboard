@@ -27,3 +27,22 @@ To write the contents of your clipboard to a file:
 
 ## With thanks to
 * The icon "<a href="https://thenounproject.com/term/clipboard/28312" target="_blank">Clipboard</a>" designed by <a href="https://thenounproject.com/Ilsur" target="_blank">Ilsur Aptukov</a> from The Noun Project.
+
+===
+
+I've forked Geoffrey Huntley's archived repo and made a few changes.
+
+I reverted the most recent commit (which essentially removed
+everything) and then merged my `updates` branch to make a few updates.
+I've tagged my latest version as `v1.2.0`.
+
+My changes include:
+
+- Better handling of input and output with no terminating newlines
+- Updating to .NET Framework 4.8 (was 4.0)
+- Adding executables to the repo
+
+I've built the project with Microsoft Visual Studio 2022 (64-bit)
+17.10.1 on Windows 11.
+
+-- Keith Thompson <Keith.S.Thompson@gmail.com>
