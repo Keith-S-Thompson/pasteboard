@@ -28,7 +28,7 @@ To write the contents of your clipboard to a file:
 ## With thanks to
 * The icon "<a href="https://thenounproject.com/term/clipboard/28312" target="_blank">Clipboard</a>" designed by <a href="https://thenounproject.com/Ilsur" target="_blank">Ilsur Aptukov</a> from The Noun Project.
 
-===
+## Updates by Keith Thompson
 
 I've forked Geoffrey Huntley's archived repo and made a few changes.
 
